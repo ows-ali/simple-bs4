@@ -30,9 +30,9 @@
         }
         </style>
 </head>
-  <body>
-        <header>
-            <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <header>
+            <nav id="home" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
 
                     <img src="images/logo.png" width="135" height="45" alt="">
@@ -43,8 +43,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home   </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home   </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#about">About</a>
@@ -59,13 +59,13 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#contact">Contact</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
                                 <a class="dropdown-item" href="#services">Services</a>
                                 <a class="dropdown-item" href="#contact">Contact</a>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                           <a class="nav-link" href="about.html">About Page</a>
                         </li>        
@@ -244,7 +244,7 @@
         <!-- gallery end -->
         <!-- join now -->
       
-        <section class="bg-dark  my-5 py-5">
+        <section class="bg-dark  mt-5 pt-5">
           <div class=" text-light text-center">
             <h2>Want to join</h2>
             <p>Be a part of tech team</p>
@@ -301,8 +301,8 @@
         
         <!-- <section> -->
 
-        <section class="mt-5" id='contact'>
-          <div class="container-fluid p-5 mt-5">
+        <section class="" id='contact'>
+          <div class="container-fluid p-5">
             
             <h2 class="text-center pt-5">Contact us</h2>
             <hr class="bg-dark w-25 mx-auto " >
