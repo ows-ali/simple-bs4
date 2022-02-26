@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="footer.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <style>
         main #content .active {
     background-color: gray !important;
@@ -17,7 +20,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <nav data-aos="fade-down"  data-aos-delay="300" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
 
                 <img src="images/logo.png" width="135" height="45" alt="">
@@ -226,7 +229,7 @@
     </section>
     </main>
 
-    <footer class="footer_area section_padding_130_0">
+    <footer data-aos="flip-up"  data-aos-delay="300" class="footer_area section_padding_130_0">
         <div class="container-fluid">
           <div class="row">
             <!-- Single Widget-->
@@ -361,6 +364,10 @@
             $('.accessories').fadeIn()
             $('.shoes').fadeIn()
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 </html>

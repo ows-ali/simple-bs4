@@ -8,6 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="testimonial.css">
@@ -40,7 +43,7 @@
 </head>
   <body>
         <header>
-            <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <nav data-aos="fade-down"  data-aos-delay="300" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
 
                     <img src="images/logo.png" width="135" height="45" alt="">
@@ -99,7 +102,8 @@
           <div class="container-fluid mt-5">
             <div class="jumbotron">
                 <h1 class="display-4">About Page!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p data-aos="flip-right"  data-aos-delay="300" class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
                 <hr class="my-4">
                 <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
                 <section id="about" class="pt-5">
@@ -110,15 +114,16 @@
           
                       <div class="row mt-4">
                           <div class=" col-md-6 ">
-                            <img src="images/image1.jpg" class="img-fluid" alt="">
+                            <img  data-aos="flip-left"  data-aos-delay="300"  src="images/image1.jpg" class="img-fluid" alt="">
           
                           </div>
                           <div class="col-md-6 line-height-2">
-                            <h3 class="text-capitalize mb-5">who am i</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat eum, nemo provident quasi esse similique perferendis, dignissimos quis natus a tenetur cum quod architecto dolorum reiciendis culpa quia facilis.
+                            <h3 data-aos="flip-left"  data-aos-delay="300" class="text-capitalize mb-5">who am i</h3>
+
+                            <p data-aos="flip-left"  data-aos-delay="300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quaerat eum, nemo provident quasi esse similique perferendis, dignissimos quis natus a tenetur cum quod architecto dolorum reiciendis culpa quia facilis.
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio provident nihil mollitia recusandae esse temporibus dolor! Aliquid facere dicta et nulla consectetur, aperiam nesciunt dolorum, accusantium culpa tempore voluptas. Nulla, voluptate saepe. Ratione quod, quae quasi tempore, quis numquam ex qui consequuntur amet vitae obcaecati? Dolores, atque praesentium eos nihil pariatur, repellat est deleniti, dolorem repellendus aut exercitationem unde aperiam. Illo magni accusantium nihil incidunt dolor molestiae totam temporibus saepe fugit officia quia animi maiores, dignissimos et soluta ipsa ipsum dicta quam ab mollitia eligendi? Consequatur dolorum veritatis veniam nisi omnis praesentium eveniet illo magnam, voluptas incidunt rem aut.
                             </p>
-                            <button class="btn btn-dark">Wanna know me</button>
+                            <button data-aos="flip-left"  data-aos-delay="300" class="btn btn-dark">Wanna know me</button>
                           </div>
           
           
@@ -135,7 +140,7 @@
         </section>
         <section>
           <div class="container-fluid px-3 px-sm-5 my-5 text-center">
-            <h4 class="mb-5 font-weight-bold">What Our Client Say</h4>
+            <h4 data-aos="zoom-in"  data-aos-delay="200" class="mb-5 font-weight-bold">What Our Clients Say</h4>
             <div class="owl-carousel owl-theme">
                 <div class="item first prev">
                     <div class="card border-0 py-3 px-4">
@@ -145,7 +150,7 @@
                     </div>
                 </div>
                 <div class="item show">
-                    <div class="card border-0 py-3 px-4">
+                    <div data-aos="flip-left"  data-aos-delay="100" class="card border-0 py-3 px-4">
                         <div class="row justify-content-center"> <img src="images/image1.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
                         <h6 class="mb-3 mt-2">Ximena Vegara</h6>
                         <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
@@ -171,7 +176,7 @@
 
         <section class="team-section py-5">
           <div class="container">
-            <h4 class="mb-5 text-center font-weight-bold">Our Team</h4>
+            <h4 data-aos="flip-left" data-aos-delay="200" class="mb-5 text-center font-weight-bold">Our Team</h4>
 
             <div class="row justify-content-center">
               <div class="col-12 col-md-6">
@@ -180,7 +185,7 @@
                     <div class="member-profile position-absolute w-100 text-center">
                         <img class="rounded-circle mx-auto d-inline-block shadow-sm" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
                       </div>
-                    <div class="card-text pt-1">
+                    <div  class="card-text pt-1">
                       <h5 class="member-name mb-0 text-center text-primary font-weight-bold">John Lynch</h5>
                       <div class="mb-3 text-center">Co-founder / CEO</div>
                       <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Vivamus eget eros vestibulum, accumsan ante viverra, condimentum tellus. Curabitur pellentesque convallis purus non ornare. Donec bibendum sed purus dignissim rutrum. Maecenas bibendum feugiat est, et venenatis nunc.</div>
@@ -289,7 +294,7 @@
           
       </section>
       </main>
-      <footer class="footer_area section_padding_130_0">
+      <footer  data-aos="flip-up"  data-aos-delay="300" class="footer_area section_padding_130_0">
         <div class="container-fluid">
           <div class="row">
             <!-- Single Widget-->
@@ -365,6 +370,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="testimonial.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
   </body>
 </html>
